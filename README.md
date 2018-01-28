@@ -25,19 +25,19 @@ python3 submit.py your_machine_name will enable you to analyse your results or m
 
 
 
-arg_config.cfg - set up a section for your own machine and tell it where to find your data files
+`arg_config.cfg` - set up a section for your own machine and tell it where to find your data files
 
-arg_config.py - decode the .cfg file and parse the command line
+`arg_config.py` - decode the .cfg file and parse the command line
 
-image_wrapper.py - generates all the augmentation files
+`image_wrapper.py` - generates all the augmentation files
 
-metrics.py - everything to do with goddamn intersection over union (I don't understand the half of it!)
+`metrics.py` - everything to do with goddamn intersection over union (I don't understand the half of it!)
 
-nuclear_gen.py - data generator functions
+`nuclear_gen.py` - data generator functions
 
-our_models.py - to keep track of what all the models are and what their weight files are called - trust me we'll need it
+`our_models.py` - to keep track of what all the models are and what their weight files are called - trust me we'll need it
 
-submit.py - makes a submission or you can set it up to analyse the results of your model on the validation set (lots of fun graphs)
+`submit.py` - makes a submission or you can set it up to analyse the results of your model on the validation set (lots of fun graphs)
 
-unet.py - the unet model
+`unet.py` - the unet model
 
