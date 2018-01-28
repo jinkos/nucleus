@@ -24,3 +24,12 @@ will load the weights and then update them
 python3 submit.py your_machine_name will enable you to analyse your results or make a submission depending on how you have set the flags in the code.
 
 
+
+arg_config.cfg - set up a section for your own machine and tell it where to find your data files
+arg_config.py - decode the .cfg file and parse the command line
+image_wrapper.py - generates all the augmentation files
+metrics.py - everything to do with goddamn intersection over union (I don't understand the half of it!)
+nuclear_gen.py - data generator functions
+our_models.py - to keep track of what all the models are and what their weight files are called - trust me we'll need it
+submit.py - makes a submission or you can set it up to analyse the results of your model on the validation set (lots of fun graphs)
+unet.py - the unet model
