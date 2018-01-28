@@ -9,7 +9,9 @@ edit the config file and add and entry for your machine_name
 
 `python3 image_wrapper.py your_machine_name`
 
-should create the aug files. Take a couple of hours. I have added multiprocessing so it should be about 4 * faster if you have 4 CPUs
+Create the aug files. 
+
+Used to take 10 hours but I have added multiprocessing. My LINUX box manages it in 2 hours, now. I had to use pillow to save the .png files because skimage wasn't working. So you need to install pillow
 
 `python3 train.py your_machine_name --save`
 
